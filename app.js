@@ -3,7 +3,7 @@ const path = require('path');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 //Db URI
-let key = 'mongodb+srv://kartik:kartik@cluster0-tw8l8.mongodb.net/test?retryWrites=true'
+let key = 'mongodb+srv://username:pass@cluster0-tw8l8.mongodb.net/test?retryWrites=true'
 mongoose.connect(key,{ useNewUrlParser: true });
 
 let db = mongoose.connection; 
